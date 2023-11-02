@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "SFProDisplay-Black";
+  font-weight: 900;
+  font-style: normal;
+  src: local("SFProDisplay-Black"),
+    local("SFProDisplay-Black"),
+    url("./fonts/SFProDisplay-Black.woff") format("woff"),
+    url("./fonts/SFProDisplay-Black.woff2") format("woff2"),
+    url("./fonts/SFProDisplay-Black.eot") format("eot");
+  font-display: swap;
+}
+
+.section {
+  margin-top: 150px;
+}
+
+.content {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.text_conten1 {
+  display: flex;
+  flex-basis: 33%;
+  gap: 30px;
+  align-items: center;
+}
+
+.text_conten2 {
+  display: flex;
+  flex-basis: 50%;
+  gap: 30px;
+  align-items: center;
+}
+
+.title {
+  color: #F2F2F2;
+  font-size: 200px;
+  font-weight: 900;
+  font-family: 'SFProDisplay-Black', sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+.text {
+  color: #333;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+}
