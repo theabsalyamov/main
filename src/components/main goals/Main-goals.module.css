@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  background: #FBFBFB;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.image_container {
+  text-align: right;
+}
+
+.image {
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: -30px;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+  flex-basis: 56%;
+  justify-content: end;
+}
+
+.text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content_image {
+  margin-top: 30px;
+}

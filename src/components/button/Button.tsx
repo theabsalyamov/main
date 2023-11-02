@@ -1,8 +1,15 @@
+import array from './image/arrow-2-right-long.svg'
+import styles from "./Button.module.css";
+
 export const Button = () => {
   return (
     <>
-    <button>CLick</button>
-    <h1>О компании</h1>
+      <a className={styles.button} href="#">
+        <p className={styles.text}>ЧИТАТЬ</p>
+        <div>
+          <img src={array} alt="Array" />
+        </div>
+      </a>
     </>
   )
 }

@@ -3,28 +3,28 @@ import logo from './img/logo.svg'
 
 export const Header = () => {
   
-  const List = (props) => {
+  const List = ({children}: {children: string}) => {
     return (
-        <li className={styles.list}>
-          <a className="nav_link" href="#">{props.name}</a>
+        <li>
+          <a className={styles.list} href="#">{children}</a>
         </li>
     )
   }
 
   return (
     <header className={styles.header}>
-    <div>
+    <div className={styles.image}>
       <a href="#">
         <img  src={logo} alt="Logo" />
       </a>
     </div>
     <nav>
       <ul  className={styles.nav}>
-        <List name={"ГЛАВНАЯ"}/>
-        <List name={"ГАЛЕРЕЯ"}/>
-        <List name={"ПРОЕКТЫ"}/>
-        <List name={"СЕРТИФИКАТЫ"}/>
-        <List name={"КОНТАКТЫ"}/>
+        <List>ГЛАВНАЯ</List>
+        <List>ГАЛЕРЕЯ</List>
+        <List>ПРОЕКТЫ</List>
+        <List>СЕРТИФИКАТЫ</List>
+        <List>КОНТАКТЫ</List>
       </ul>
     </nav>
     </header>

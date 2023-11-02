@@ -1,0 +1,19 @@
+.button {
+  background: #FFF;
+  padding: 24px 0 23px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 222px;
+}
+
+.text {
+  color: #333;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+  margin-right: 12px;
+}
+
+/* .image {} */
