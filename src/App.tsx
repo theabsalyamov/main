@@ -2,6 +2,7 @@ import './App.css'
 import { Header } from "./components/header/Header";
 import { MainGoals } from "./components/main goals/Main-goals";
 import { MainTasks } from "./components/main tasks/Main-tasks";
+import { OurProjects } from "./components/our projects/Our-projects";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <Header/>
     <MainGoals/>
     <MainTasks/>
+    <OurProjects/>
     </>
   )
 }

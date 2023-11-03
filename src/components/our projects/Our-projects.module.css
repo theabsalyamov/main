@@ -1,0 +1,49 @@
+.section {
+  margin-top: 120px;
+}
+
+.image_container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.title_container {
+  background: linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8)), url("./image/projbj.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 570px;
+  height: 255px;
+}
+
+.image_title {
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  padding: 48px 78px 0 79px;
+}
+
+.image_btn {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  display: flex;
+  gap: 12px;
+  margin-left: 79px;
+  margin-top: 14px;
+  align-items: center;
+}
+
+.btn_container {
+  max-width: 222px;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
