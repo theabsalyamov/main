@@ -1,5 +1,5 @@
-import styles from "../main tasks/Main-tasks.module.css"
-import { MainTitle } from "../main title/Main-title";
+import styles from "./Main-tasks.module.css"
+import { MainTitle } from "../title/Main-title";
 
 
 

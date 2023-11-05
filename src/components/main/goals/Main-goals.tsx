@@ -1,9 +1,9 @@
-import { MainTitle } from "../main title/Main-title";
-import image1 from "../main goals/image/main-goals (1).jpg" 
-import image2 from "../main goals/image/main-goals (2).jpg" 
-import image3 from "../main goals/image/main-goals (3).jpg" 
-import styles from "../main goals/Main-goals.module.css"
-import {Button} from "../button/Button"
+import { MainTitle } from "../title/Main-title";
+import image1 from "../../../../image/goals1.jpg" 
+import image2 from "../../../../image/goals2.jpg" 
+import image3 from "../../../../image/goals3.jpg" 
+import styles from "./Main-goals.module.css"
+import {Button} from "../../button/Button"
 
 export const MainGoals = () => {
   return (
@@ -29,7 +29,7 @@ export const MainGoals = () => {
             <p className={styles.text}>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </p>
-            <Button/>
+            <Button name='ЧИТАТЬ'/>
           </div>
         </div>    
       </div>

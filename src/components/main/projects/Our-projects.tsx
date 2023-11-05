@@ -1,11 +1,11 @@
-import { MainTitle } from "../main title/Main-title";
+import { MainTitle } from "../title/Main-title";
 import styles from "./Our-projects.module.css"
-import img1 from "./image/proj1.jpg";
-import img2 from "./image/proj2.jpg";
-import img3 from "./image/proj3.jpg";
-import img4 from "./image/proj4.jpg";
-import array from "./image/arrow-2-right-long.svg";
-import {BlackButton} from "../button/Black-button"
+import img1 from "../../../../image/proj1.jpg";
+import img2 from "../../../../image/proj2.jpg";
+import img3 from "../../../../image/proj3.jpg";
+import img4 from "../../../../image/proj4.jpg";
+import array from "../../../../image/arrow-2-right-long.svg";
+import {BlackButton} from "../../button/Black-button"
 
 export const OurProjects = () => {
   return (
@@ -27,7 +27,7 @@ export const OurProjects = () => {
       <div><img src={img4} alt="Сооружение" /></div>
     </div>
     <div className={styles.btn_container}>
-      <BlackButton/>  
+      <BlackButton name='ВСЕ ПРОЕКТЫ'/>  
     </div>
     </section>
   )

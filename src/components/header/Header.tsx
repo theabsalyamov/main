@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import logo from './img/logo.svg'
+import logo from '../../../image/logo.svg'
 
 export const Header = () => {
   
@@ -18,8 +18,8 @@ export const Header = () => {
         <img  src={logo} alt="Logo" />
       </a>
     </div>
-    <nav>
-      <ul  className={styles.nav}>
+    <nav className={styles.nav}>
+      <ul  className={styles.nav_list}>
         <List>ГЛАВНАЯ</List>
         <List>ГАЛЕРЕЯ</List>
         <List>ПРОЕКТЫ</List>

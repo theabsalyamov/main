@@ -1,10 +1,13 @@
 .button {
   background: #FFF;
-  padding: 24px 0 23px 0;
+  padding: 30px 32px 29px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 222px;
+  background-image: url('../../../image/arrow-2-right-long.svg');
+  background-repeat: no-repeat;
+  background-position: 125px 25px;
 }
 
 .text {
