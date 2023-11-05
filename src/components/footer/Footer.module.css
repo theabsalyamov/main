@@ -1,0 +1,138 @@
+.footer {
+  background-color: #2C2C2C;
+  margin-top: 120px;
+}
+
+.container {
+  font-family: 'TT Hoves Pro Trial', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 135px;
+}
+
+
+.content {
+  display: flex;
+  padding-top: 58px;
+  justify-content: space-between;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.content h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.logo {
+  flex-basis: 16%;
+}
+
+.menu {
+  flex-basis: 16%;
+}
+
+.menu>ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 25px;
+}
+
+.contacts {
+  flex-basis: 25%;
+}
+
+.contacts>ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 25px;
+  gap: 16px;
+}
+
+.contacts>ul>li:first-child>a {
+  display: block;
+  padding-left: 30px;
+  background-image: url('../../../image/geolocation.svg');
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+}
+
+.contacts>ul>li:nth-child(2)>a {
+  padding-left: 30px;
+  background-image: url('../../../image/tel.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+}
+
+.contacts>ul>li:nth-child(3)>a {
+  padding-left: 30px;
+  background-image: url('../../../image/email.svg');
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+}
+
+.social {
+  flex-basis: 25%;
+}
+
+.social>ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.social>ul>li:first-child>a {
+  background-image: url('../../../image/facebook.svg');
+  background-repeat: no-repeat;
+  display: block;
+  height: 19px;
+  width: 10px;
+}
+
+.social>ul>li:nth-child(2)>a {
+  background-image: url('../../../image/twitter.svg');
+  background-repeat: no-repeat;
+  display: block;
+  height: 17px;
+  width: 22px;
+}
+
+.social>ul>li:nth-child(3)>a {
+  background-image: url('../../../image/Linked\ In.svg');
+  background-repeat: no-repeat;
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+
+.social>ul>li:nth-child(4)>a {
+  background-image: url('../../../image/pininterest.svg');
+  background-repeat: no-repeat;
+  display: block;
+  height: 19px;
+  width: 14px;
+}
+
+.rights {
+  padding: 24px 0;
+  margin-top: 60px;
+  border-top: 1px solid #333;
+}
+
+.rights_text {
+  color: rgba(200, 200, 200, 0.50);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+}
