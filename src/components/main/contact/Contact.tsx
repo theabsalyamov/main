@@ -2,8 +2,10 @@ import styles from './Contact.module.css'
 import { MainTitle } from '../title/Main-title'
 import image from '../../../../image/image 12.jpg'
 
-export const Contact = () => {
 
+export const Contact = () => {
+  const error = 'Error'
+  
   return (
     <section className={styles.section}>
         <MainTitle>
@@ -13,11 +15,11 @@ export const Contact = () => {
         <div className={styles.contact_container}>
           <div>
             <form action="" className={styles.form}>
-              <input className={styles.input} type="text" placeholder='Имя' required/>
-              <input className={styles.input} type="tel" placeholder='Номер телефона'/>
-              <input className={styles.input} type="email" placeholder='E-mail'/>
+              <input className={styles.input} type="text" placeholder='Имя'/>
+              <input className={!error ? styles.inputError : styles.input} type="tel" placeholder='Номер телефона' required />
+              <input className={!error ? styles.inputError : styles.input} type="email" placeholder='E-mail' required />
               <input className={styles.input} type="text" placeholder='Интересующий товар/услуга'/>
-              <textarea className={`${styles.input} ${styles.textarea}`} placeholder='Сообщение'></textarea>
+              <textarea className={`${!error ? styles.inputError : styles.input} ${styles.textarea}`} placeholder='Сообщение' required></textarea>
               <div className={styles.text_container}>
                 <input type="checkbox" className={styles.checkbox} id="check" name="check" value='yes' />
                 <label  className={styles.text} htmlFor='check'>Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</label>
@@ -26,7 +28,7 @@ export const Contact = () => {
             </form>
           </div>
         </div>
-        <div>
+        <div className={styles.img}>
           <img src={image} alt="contact" />
         </div>
       </div>

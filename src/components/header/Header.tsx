@@ -13,20 +13,22 @@ export const Header = () => {
 
   return (
     <header className={styles.header}>
-    <div className={styles.image}>
-      <a href="#">
-        <img  src={logo} alt="Logo" />
-      </a>
-    </div>
-    <nav className={styles.nav}>
-      <ul  className={styles.nav_list}>
-        <List>ГЛАВНАЯ</List>
-        <List>ГАЛЕРЕЯ</List>
-        <List>ПРОЕКТЫ</List>
-        <List>СЕРТИФИКАТЫ</List>
-        <List>КОНТАКТЫ</List>
-      </ul>
-    </nav>
+      <div className={styles.container}>
+        <div className={styles.image}>
+          <a href="#">
+            <img  src={logo} alt="Logo" />
+          </a>
+        </div>
+        <nav className={styles.nav}>
+          <ul  className={styles.nav_list}>
+            <List>ГЛАВНАЯ</List>
+            <List>ГАЛЕРЕЯ</List>
+            <List>ПРОЕКТЫ</List>
+            <List>СЕРТИФИКАТЫ</List>
+            <List>КОНТАКТЫ</List>
+          </ul>
+        </nav>
+      </div>
     </header>
   )
 }

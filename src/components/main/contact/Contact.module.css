@@ -28,6 +28,20 @@
   background-repeat: no-repeat;
 }
 
+.inputError {
+  background: #F3F3F3;
+  color: #8D8D8D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 14px 21px;
+  background-repeat: no-repeat;
+}
+
+.inputError::placeholder {
+  color: rgb(255, 130, 130)
+}
+
 .text_container {
   margin: 22px 20px 0 0;
   display: flex;
@@ -69,6 +83,11 @@
   background-repeat: no-repeat;
   background-position: 135px 25px;
   cursor: pointer;
+  transition: all ease-in-out .3s;
+}
+
+.button:hover {
+  background-color: #BDBDBD;
 }
 
 .checkbox {
@@ -105,4 +124,39 @@
 
 .checkbox:not(:disabled):not(:checked)+label:hover::before {
   background-color: #F3F3F3;
+}
+
+@media (max-width: 1385px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact_container {
+    order: 2;
+  }
+}
+
+@media(max-width: 850px) {
+  .img {
+    display: none;
+  }
+
+  .form {
+    align-items: center;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
+@media(max-width: 430px) {
+  .section {
+    margin-top: 75px;
+  }
 }

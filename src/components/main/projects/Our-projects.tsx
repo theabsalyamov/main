@@ -5,7 +5,6 @@ import img2 from "../../../../image/proj2.jpg";
 import img3 from "../../../../image/proj3.jpg";
 import img4 from "../../../../image/proj4.jpg";
 import array from "../../../../image/arrow-2-right-long.svg";
-import {BlackButton} from "../../button/Black-button"
 
 export const OurProjects = () => {
   return (
@@ -21,14 +20,12 @@ export const OurProjects = () => {
           <img src={array} alt="array" />
         </a>
       </div>
-      <div><img src={img1} alt="Здание" /></div>
-      <div><img src={img2} alt="Площадка" /></div>
-      <div><img src={img3} alt="Квартиры" /></div>
-      <div><img src={img4} alt="Сооружение" /></div>
+      <div className={styles.image_item}><img src={img1} alt="Здание" /></div>
+      <div className={styles.image_item}><img src={img2} alt="Площадка" /></div>
+      <div className={styles.image_item}><img src={img3} alt="Квартиры" /></div>
+      <div className={styles.image_item}><img src={img4} alt="Сооружение" /></div>
     </div>
-    <div className={styles.btn_container}>
-      <BlackButton name='ВСЕ ПРОЕКТЫ'/>  
-    </div>
+        <a href="#" className={styles.button}>ВСЕ ПРОЕКТЫ</a>  
     </section>
   )
 };

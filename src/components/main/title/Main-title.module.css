@@ -1,6 +1,24 @@
 .title {
-  color:#BDBDBD;
+  color: #BDBDBD;
   font-size: 64px;
   font-weight: 300;
   line-height: 64px;
+}
+
+@media (max-width: 1340px) {
+  .title {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 770px) {
+  .title{
+    text-align: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .title {
+    font-size: 35px;
+  }
 }

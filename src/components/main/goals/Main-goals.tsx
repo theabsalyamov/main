@@ -3,7 +3,6 @@ import image1 from "../../../../image/goals1.jpg"
 import image2 from "../../../../image/goals2.jpg" 
 import image3 from "../../../../image/goals3.jpg" 
 import styles from "./Main-goals.module.css"
-import {Button} from "../../button/Button"
 
 export const MainGoals = () => {
   return (
@@ -29,7 +28,7 @@ export const MainGoals = () => {
             <p className={styles.text}>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </p>
-            <Button name='ЧИТАТЬ'/>
+              <a href="#" className={styles.button}>ЧИТАТЬ</a>
           </div>
         </div>    
       </div>
